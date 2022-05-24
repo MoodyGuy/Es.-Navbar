@@ -1,0 +1,62 @@
+nav {
+
+    background-color: black;
+}
+
+
+a {
+
+    color: aliceblue;
+}
+
+label {
+
+    color: gray;
+}
+
+button {
+
+    color: green;
+}
+
+button:hover {
+
+    color: white;
+}
+
+.barr {
+
+    height: 2px;
+    width: 5px;
+    padding: 1px;
+    background-color: white;
+}
+
+.fallback_One {
+
+display: none;
+}
+
+
+
+@media screen and (max-width:768px) {
+
+   .first_One {display: none;
+}
+
+.fallback_One {
+
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+  
+    
+    
+}
+
+
+
+
+
+    
+}
