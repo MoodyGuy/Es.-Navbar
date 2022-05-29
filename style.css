@@ -24,35 +24,75 @@ button:hover {
     color: white;
 }
 
-.barr {
+.barr_03 {
 
-    height: 2px;
-    width: 5px;
-    padding: 1px;
-    background-color: white;
+    display: inline;
 }
 
-.fallback_One {
+.menu {
 
-display: none;
+    display: none;
+     
+ }
+
+.menu img {
+
+    max-width: 2.5rem;
+    max-height: 1rem;
 }
 
 
 
 @media screen and (max-width:768px) {
 
-   .first_One {display: none;
-}
+    .barr_01 {
 
-.fallback_One {
+        display: none;
+        
 
-    display: flex;
-    flex-direction: row;
-    align-content: center;
-  
+    }
+
+    .barr_02 {
+
+        display: none;
+        
+    }
+
+    .barr_03 {
+
+        display: none;
+        
+    }
+
+    .barr_04 {
+
+        display: none;
+        
+    }
+
+    .barr_05 {
+
+        display: none;
+        
+    }
+
+    .navbar {
+
+        cursor: pointer;
+    }
+
+    .navbar:hover + .menu {
+
+        display: inline;
+    }
+
+
+
+
+
     
-    
-}
+
+
 
 
 
